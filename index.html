@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="basic-form" action="" method="post">
+        <p>
+          <label for="name">NRP <span>(setidaknya 10 karakter)</span></label>
+          <input id="name" name="name" minlength="10" type="text" required>
+        </p>
+        <p>
+            <label for="name">Nama Lengkap <span>(setidaknya 3 karakter)</span></label>
+            <input id="name" name="name" minlength="3" type="text" required>
+          </p>
+        <p>
+            <label for="name">Alamat <span>(setidaknya 20 karakter)</span></label>
+            <input id="name" name="name" minlength="20" type="text" required>
+        </p>
+        <p>
+            <label for="name">Umur <span>(setidaknya 2 karakter)</span></label>
+            <input id="name" name="name" minlength="2" maxlength="3" type="text" required>
+        </p>
+        <p>
+          <label for="email">E-Mail <span>(required)</span></label>
+          <input id="email" type="email" name="email" required>
+        </p>
+        <p>
+            <label for="email">Alamat Situs <span>(dibutuhkan)</span></label>
+            <input id="name" name="name" minlength="10" type="text" required>
+          </p>
+          <p>
+            <label for="Password">Password <span>(setidaknya 8 karakter)</span></label>
+            <input id="name" name="Password" minlength="8" type="password" required>
+          </p>
+        <p>
+          <input class="submit" type="submit" value="SUBMIT">
+        </p>
+    </form>
+    <!-- script -->
+    <script src="index.js"></script>
+</body>
+</html>
